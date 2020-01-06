@@ -8,9 +8,10 @@ edition = "2018"
 
 [dependencies]
 actix-web ="2.0"
+actix-rt = "1.0.0"
 diesel = { version = "1.0.0", features = ["postgres"]}
 dotenv = "0.9.0"
-env-loggerv="0.7.1"
+env_logger ="0.7.1"
 futures = "0.3.1"
 juniper = "0.14.2"
 serde = "1.0"
