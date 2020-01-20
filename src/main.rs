@@ -3,6 +3,8 @@ use std::sync::Arc;
 
 #[macro_use]
 extern crate juniper;
+extern crate diesel;
+extern crate dotenv;
 
 use actix_web::{middleware, get, web, App, Error, HttpServer, HttpResponse, Responder};
 use juniper::http::graphiql::graphiql_source;
